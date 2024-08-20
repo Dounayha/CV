@@ -11,10 +11,12 @@
     <header></header>
 <main class="container border">
     <div class="row align-items-start">
-        <div class="col-md-4">
-            One of three columns
+        <div class="col-md-4"> <!-- colonne gauche -->
+            <div>
+                <img src="" alt="photo de profil"
+            </div>
         </div>
-        <div class="col-md-8 p_colonne_droite">
+        <div class="col-md-8 p_colonne_droite">  <!-- colonne droite -->
             One of three columns
         </div>
     </div>

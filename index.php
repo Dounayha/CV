@@ -7,8 +7,8 @@
     <title>CV Dounayha Abdillah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./assets/main.css" rel="stylesheet">
-</head>
+        <link href="./assets/main.css?t=<?= time(); ?>" rel="stylesheet">
+        </head>
 
 <body>
     <main class="container border mt-4 shadow-lg p-4">
@@ -20,7 +20,7 @@
                 </div>
                 <!-- Contact -->
                 <div id="contact" class="text-start">
-                    <h5 class="fw-bold text-primary">CONTACT</h5>
+                    <h5 class="fw-bold ">CONTACT</h5>
                     <div class="d-flex align-items-center mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-telephone me-2" viewBox="0 0 16 16">
@@ -49,33 +49,33 @@
 
                 <!-- Profil -->
                 <div id="profil" class="mt-4 text-start">
-                    <h5 class="fw-bold text-primary">PROFIL</h5>
+                    <h5 class="fw-bold ">PROFIL</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
                         bibendum.</p>
-                    <p>Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                    <p>Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit .</p>
                 </div>
 
                 <!-- Compétences -->
                 <div id="competences" class="mt-4 text-start">
-                    <h5 class="fw-bold text-primary">COMPÉTENCES</h5>
+                    <h5 class="fw-bold ">COMPÉTENCES</h5>
                     <div class="mb-2">
                         <span>HTML</span>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                            <div class="progress-bar bg-gray" role="progressbar" style="width: 90%;" aria-valuenow="90"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="mb-2">
                         <span>CSS</span>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                            <div class="progress-bar bg-gray" role="progressbar" style="width: 90%;" aria-valuenow="90"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="mb-2">
                         <span>PHP</span>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                            <div class="progress-bar bg-gray" role="progressbar" style="width: 50%;" aria-valuenow="50"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
 
                 <!-- Centres d'intérêts -->
                 <div id="loisirs" class="mt-4 text-start">
-                    <h5 class="fw-bold text-primary">CENTRES D'INTÉRÊTS</h5>
+                    <h5 class="fw-bold ">CENTRES D'INTÉRÊTS</h5>
                     <ul class="list-unstyled">
                         <li>Lecture</li>
                         <li>Cuisine</li>
@@ -95,11 +95,11 @@
              
             <div class="col-md-8 p-4 p_colonne_droite">
                 <div id="nom" class="mb-3">
-                    <h1 class="fw-bold text-primary">Dounayha Abdillah</h1>
+                    <h1 class="fw-bold ">Dounayha Abdillah</h1>
                     <h2 class="text-secondary">Développeur Web</h2>
                 </div>
                 <section id="experiences" class="bg-white fs-5 mt-3">
-                    <h5 class="fw-bold text-primary">EXPÉRIENCES PROFESSIONNELLES</h5>
+                    <h5 class="fw-bold ">EXPÉRIENCES PROFESSIONNELLES</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">Téléconseillère à pro BTP 
                          <p class="text-muted small"> juin à décembre 2023</p>
@@ -113,10 +113,10 @@
                     </ul>
                 </section>
                 <section id="formation" class="bg-white fs-5 mt-3">
-                    <h5 class="fw-bold text-primary">FORMATIONS</h5>
+                    <h5 class="fw-bold ">FORMATIONS</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">Titre professionnel développeur web
-                        <p class="text-muted small"> La plateforme 2023</p>
+                        <p class="text-muted small"> La plateforme 2024</p>
                         </li>
                         <li class="mb-2">BTS technico-commercial
                         <p class="text-muted small"> Lycéé Jean Perrin 2021-2023</p>

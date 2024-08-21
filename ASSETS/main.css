@@ -1,29 +1,29 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: #f5f5f5; /* Beige très clair */
+    color: #333; /* Gris foncé pour un meilleur contraste */
     line-height: 1.6;
 }
 
-h1, h2, h5 {
-    color: #0d6efd;
+h1, h2 {
+    color: #333; /* Gris foncé pour les titres */
+}
+
+h5 {
+    color: #444; /* Gris légèrement plus foncé */
 }
 
 .container {
     max-width: 1000px;
     margin-top: 20px;
-    background-color: #ffffff;
+    background-color: #fff7f0; /* Blanc cassé avec une touche de beige */
     border-radius: 10px;
 }
 
 .p_colonne_droite {
-    background-color: #f0f4f8;
+    background-color: #d1bfa7; /* Beige doux pour le fond de la colonne droite */
     border-radius: 20px;
     margin-top: 50px;
-}
-
-.progress-bar {
-    background-color: #0d6efd;
 }
 
 .list-unstyled {
@@ -33,7 +33,7 @@ h1, h2, h5 {
 
 .list-unstyled li::before {
     content: "•";
-    color: #0d6efd;
+    color: #ba8b65; /* Brun beige pour les puces */
     display: inline-block;
     width: 1em;
     margin-left: -1em;
@@ -41,25 +41,20 @@ h1, h2, h5 {
 
 p {
     margin-bottom: 10px;
-
 }
 
 .shadow-lg {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Légère ombre */
 }
 
 .mt-4 {
-    margin-top: 2rem ;
-}
-
-.text-primary {
-    color: #0d6efd ;
+    margin-top: 2rem;
 }
 
 .text-secondary {
-    color: #6c757d ;
+    color: #a28b75; /* Beige légèrement plus foncé pour le sous-titre */
 }
 
 .fw-bold {
-    font-weight: 700 ;
+    font-weight: 700;
 }

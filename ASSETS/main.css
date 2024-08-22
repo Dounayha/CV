@@ -69,4 +69,11 @@ p {
         
     }
     
-/* js */
+    @media print {
+        .btn-secondary {
+            display: none;
+        }
+    }
+    
+    
+
